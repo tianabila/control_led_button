@@ -1,8 +1,2 @@
-Wiring Wokwi - 3 LED 3 Button:
-- LED 1 -> Pin 13, Button 1 -> Pin 2
-- LED 2 -> Pin 12, Button 2 -> Pin 3
-- LED 3 -> Pin 11, Button 3 -> Pin 4
-- Semua LED pakai resistor 220 ohm ke GND
-- Semua Button kaki 1 ke Pin, kaki 2 ke GND
-
-https://wokwi.com/projects/481651503530907649
+link project wokwi : https://wokwi.com/projects/481651503530907649
+link project wokwi : https://wokwi.com/projects/481679765407391745
