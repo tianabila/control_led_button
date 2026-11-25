@@ -1,0 +1,7 @@
+build/
+*.hex
+*.elf
+*.eep
+*.tmp
+*.bak
+.DS_Store
