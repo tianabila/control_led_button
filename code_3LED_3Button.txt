@@ -1,31 +1,31 @@
-const int button1Pin = 2;
-const int button2Pin = 3;
-const int button3Pin = 4;
-const int led1Pin = 13;
-const int led2Pin = 12;
-const int led3Pin = 11;
+const int led1 = 8;
+const int led2 = 9;
+const int led3 = 10;
+const int button1 = 2;
+const int button2 = 3;
+const int button3 = 4;
 void setup() {
-  pinMode(led1Pin, OUTPUT);
-  pinMode(led2Pin, OUTPUT);
-  pinMode(led3Pin, OUTPUT);
-  pinMode(button1Pin, INPUT);
-  pinMode(button2Pin, INPUT);
-  pinMode(button3Pin, INPUT);
+  pinMode(led1, OUTPUT);
+  pinMode(led2, OUTPUT);
+  pinMode(led3, OUTPUT);
+  pinMode(button1, INPUT_PULLUP);
+  pinMode(button2, INPUT_PULLUP);
+  pinMode(button3, INPUT_PULLUP);
 }
 void loop() {
-  if (digitalRead(button1Pin) == HIGH) {
-    digitalWrite(led1Pin, HIGH);
+  if (digitalRead(button1) == LOW) {
+    digitalWrite(led1, HIGH);
   } else {
-    digitalWrite(led1Pin, LOW);
+    digitalWrite(led1, LOW);
   }
-  if (digitalRead(button2Pin) == HIGH) {
-    digitalWrite(led2Pin, HIGH);
+  if (digitalRead(button2) == LOW) {
+    digitalWrite(led2, HIGH);
   } else {
-    digitalWrite(led2Pin, LOW);
+    digitalWrite(led2, LOW);
   }
-  if (digitalRead(button3Pin) == HIGH) {
-    digitalWrite(led3Pin, HIGH);
+  if (digitalRead(button3) == LOW) {
+    digitalWrite(led3, HIGH);
   } else {
-    digitalWrite(led3Pin, LOW);
+    digitalWrite(led3, LOW);
   }
 }
