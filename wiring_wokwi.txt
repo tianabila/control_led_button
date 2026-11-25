@@ -1,2 +1,5 @@
-Link Project Wokwi 1 (1 LED):
-https://wokwi.com/projects/481638771058588673
+Wiring Wokwi - 2 LED 1 Button:
+- LED 1 Anoda -> Pin 13, Katoda -> GND via Resistor 220 ohm
+- LED 2 Anoda -> Pin 12, Katoda -> GND via Resistor 220 ohm
+- Button satu kaki -> Pin 2, kaki lain -> GND
+- ESP32 / Arduino GND -> GND Breadboard
